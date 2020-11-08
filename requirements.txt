@@ -1,0 +1,6 @@
+gym[box2d]
+neptune-client
+stable-baselines
+tensorflow==1.15.2
+psutil
+git+https://gitlab.com/awarelab/mrunner

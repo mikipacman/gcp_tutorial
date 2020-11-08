@@ -1,0 +1,11 @@
+contexts:
+  example_context:
+    backend_type: kubernetes
+    storage_dir: "/log"
+    registry_url: "https://gcr.io"
+    google_project_id: "" # PROJECT_ID of your GCP project,
+    # We don't use gpu now, but it's possible (if interested check out https://cloud.google.com/kubernetes-engine/docs/how-to/gpus)
+    #     gpu:  1
+    cpu: 1
+    mem: 2G
+current_context: example_context
